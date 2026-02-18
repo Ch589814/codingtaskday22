@@ -3,7 +3,6 @@ public class GenericArrayUtility {
     public static <T> T[] mergeArrays(T[] a, T[] b) {
         // Handle null cases
         if (a == null && b == null) {
-            // Both arrays are null
             return null;
         }
        // First array is null
@@ -11,7 +10,7 @@ public class GenericArrayUtility {
 
             return b;
         }
-        //// Second array is null
+        // Second array is null
         if (b == null) {
 
             return a;
